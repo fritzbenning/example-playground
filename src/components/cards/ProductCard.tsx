@@ -1,6 +1,5 @@
-import { ShoppingBagIcon, StarIcon } from "@heroicons/react/24/solid";
-
 import { Button } from "../actions/Button";
+import { StarIcon } from "@heroicons/react/24/solid";
 
 interface ProductCardProps {
   name: string;

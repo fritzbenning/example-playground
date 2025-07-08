@@ -20,7 +20,7 @@ export function Button({
   className = "",
 }: ButtonProps) {
   const baseClasses =
-    "flex items-center justify-center gap-2 rounded-lg font-medium transition-all shadow-lg";
+    "flex items-center justify-center gap-2 rounded-lg font-medium transition-all shadow-lg whitespace-nowrap";
 
   const variantClasses = {
     primary:
@@ -44,7 +44,7 @@ export function Button({
       disabled={disabled}
       onClick={disabled ? undefined : onClick}
     >
-      <ShoppingBagIcon />
+      <ShoppingBagIcon className="size-3" />
       {children}
     </button>
   );
