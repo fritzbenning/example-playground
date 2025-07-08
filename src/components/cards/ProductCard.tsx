@@ -41,11 +41,7 @@ export function ProductCard({
             />
           ))}
         </div>
-        <Button
-          className="w-full"
-          disabled={!inStock}
-          icon={<ShoppingBagIcon />}
-        >
+        <Button className="w-full" disabled={!inStock}>
           {inStock ? "Add to Cart" : "Out of Stock"}
         </Button>
       </div>
