@@ -1,3 +1,4 @@
+import { ShoppingBagIcon } from "@heroicons/react/24/solid";
 import { type ReactNode } from "react";
 
 interface ButtonProps {
@@ -17,7 +18,7 @@ export function Button({
   disabled = false,
   onClick,
   className = "",
-  icon,
+  icon = <ShoppingBagIcon />,
 }: ButtonProps) {
   const baseClasses =
     "flex items-center justify-center gap-2 rounded-lg font-medium transition-all shadow-lg";
