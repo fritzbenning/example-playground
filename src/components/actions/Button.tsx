@@ -44,7 +44,7 @@ export function Button({
       disabled={disabled}
       onClick={disabled ? undefined : onClick}
     >
-      <ShoppingBagIcon className="size-3" />
+      <ShoppingBagIcon className="size-4" />
       {children}
     </button>
   );
