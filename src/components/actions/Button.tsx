@@ -1,3 +1,4 @@
+import { ShoppingBagIcon } from "@heroicons/react/24/solid";
 import { type ReactNode } from "react";
 
 interface ButtonProps {
@@ -17,10 +18,9 @@ export function Button({
   disabled = false,
   onClick,
   className = "",
-  icon,
 }: ButtonProps) {
   const baseClasses =
-    "flex items-center justify-center gap-2 rounded-lg font-medium transition-all shadow-lg";
+    "flex items-center justify-center gap-2 rounded-lg font-medium transition-all shadow-lg whitespace-nowrap";
 
   const variantClasses = {
     primary:
@@ -44,7 +44,7 @@ export function Button({
       disabled={disabled}
       onClick={disabled ? undefined : onClick}
     >
-      {icon && <span className="w-4 h-4">{icon}</span>}
+      <ShoppingBagIcon className="size-4" />
       {children}
     </button>
   );

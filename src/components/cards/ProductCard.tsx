@@ -1,5 +1,5 @@
-import { ShoppingBagIcon, StarIcon } from "@heroicons/react/24/solid";
-import { Button } from "./Button";
+import { Button } from "../actions/Button";
+import { StarIcon } from "@heroicons/react/24/solid";
 
 interface ProductCardProps {
   name: string;
@@ -40,11 +40,7 @@ export function ProductCard({
             />
           ))}
         </div>
-        <Button
-          className="w-full"
-          disabled={!inStock}
-          icon={<ShoppingBagIcon />}
-        >
+        <Button className="w-full" disabled={!inStock}>
           {inStock ? "Add to Cart" : "Out of Stock"}
         </Button>
       </div>
