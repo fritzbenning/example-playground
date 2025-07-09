@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+
+import { ProductCard } from "./components/cards/ProductCard";
+import reactLogo from "./assets/react.svg";
+import { useState } from "react";
+import viteLogo from "/vite.svg";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -25,11 +27,15 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <ProductCard
+        name="React T-Shirt"
+        price={29}
+        rating={4}
+        inStock={true}
+        image="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+      />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
