@@ -24,7 +24,7 @@ export function Button({
 
   const variantClasses = {
     primary:
-      "bg-gradient-to-r from-green-700 to-teal-600 hover:brightness-90 text-white",
+      "bg-gradient-to-r from-primary to-teal-600 hover:brightness-90 text-white",
     secondary: "bg-gray-200 hover:bg-gray-300 text-gray-800",
     disabled: "bg-gray-400 cursor-not-allowed text-white",
   };
