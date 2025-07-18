@@ -20,7 +20,7 @@ export function Button({
   className = "",
 }: ButtonProps) {
   const baseClasses =
-    "flex items-center justify-center gap-2 rounded-lg font-medium transition-all shadow-lg whitespace-nowrap";
+    "flex items-center justify-center gap-2 rounded-lg font-semibold transition-all shadow-lg whitespace-nowrap";
 
   const variantClasses = {
     primary:

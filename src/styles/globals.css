@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", "Inter", "sans-serif";
+  --font-serif: "Instrument Serif", "sans-serif";
+  --color-primary: green;
+}
