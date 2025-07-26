@@ -2,8 +2,8 @@ import { ProductCard } from "../../cards/ProductCard";
 
 export function RelatedProducts() {
   return (
-    <div className="py-8">
-      <h2 className="font-serif text-3xl font-light mb-6 text-center">
+    <div className="py-8 bg-white px-4">
+      <h2 className="font-serif text-4xl font-light mb-6 text-center">
         Related Products
       </h2>
       <div className="flex gap-6 justify-center flex-wrap md:flex-nowrap">
