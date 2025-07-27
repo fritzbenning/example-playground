@@ -3,7 +3,7 @@ import { ProductCard } from "../../cards/ProductCard";
 export function RelatedProducts() {
   return (
     <div className="py-8 lg:py-12 md:py-16 bg-green-100 px-4 md:px-8 lg:px-12">
-      <h2 className="font-serif text-4xl lg:text-5xl font-light mb-8 text-center">
+      <h2 className="font-serif text-3xlmd:text-4xl lg:text-5xl font-light mb-8 md:mb-10 lg:mb-12 text-center">
         Related Products
       </h2>
       <div className="flex gap-6 justify-center flex-wrap lg:flex-nowrap">
