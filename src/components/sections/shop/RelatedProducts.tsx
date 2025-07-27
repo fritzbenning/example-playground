@@ -2,7 +2,7 @@ import { ProductCard } from "../../cards/ProductCard";
 
 export function RelatedProducts() {
   return (
-    <div className="py-16 bg-green-100 px-8">
+    <div className="py-16 bg-green-100 px-12">
       <h2 className="font-serif text-4xl font-light mb-8 text-center">
         Related Products
       </h2>

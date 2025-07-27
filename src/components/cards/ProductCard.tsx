@@ -17,7 +17,7 @@ export function ProductCard({
   image = "https://images.unsplash.com/photo-1622351772377-c3dda74beb03",
 }: ProductCardProps) {
   return (
-    <div className="font-display rounded-xl shadow-lg bg-white hover:shadow-xl overflow-hidden transition-shadow duration-300 min-w-88">
+    <div className="font-display rounded-xl shadow-lg bg-white hover:shadow-xl overflow-hidden transition-shadow duration-300">
       <div className="aspect-[4/3] object-cover max-h-100 w-full">
         <img src={image} alt="image" className="w-full h-full object-cover" />
       </div>
