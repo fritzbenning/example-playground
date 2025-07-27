@@ -2,11 +2,11 @@ import { ProductCard } from "../../cards/ProductCard";
 
 export function RelatedProducts() {
   return (
-    <div className="py-16 bg-green-100 px-12">
-      <h2 className="font-serif text-4xl font-light mb-8 text-center">
+    <div className="py-8 lg:py-12 md:py-16 bg-green-100 px-4 md:px-8 lg:px-12">
+      <h2 className="font-serif text-4xl lg:text-5xl font-light mb-8 text-center">
         Related Products
       </h2>
-      <div className="flex gap-6 justify-center flex-wrap md:flex-nowrap">
+      <div className="flex gap-6 justify-center flex-wrap lg:flex-nowrap">
         <ProductCard
           name="Classic Polo"
           price={35}
